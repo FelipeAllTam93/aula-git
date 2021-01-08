@@ -7,10 +7,10 @@ git log // visualiza os pontos na linha do tempo;
 git status // informa o estado de alterações do nosso projeto;
 git show // apresenta determinado ponto na história;
 git branch [nome da branch] // cria uma nova branch dentro do seu projeto;
-git checkout [branch] // muda de branch dentro do projeto
+git branch -D [nome da branch] // deleta a branch;
+git checkout [branch] // muda de branch dentro do projeto;
 git merge [nome das branch] // merge as branchs sendo a segunda inserida na primeira;
 git remote add origin (pagina do github do repositório) // adiciona ao github 
 git push // adiciona na linha do tempo do github
-
-
+git clone + http:// clona um projeto já existente de um repositório remoto para o repositório local;
 shift +q sai do git show
