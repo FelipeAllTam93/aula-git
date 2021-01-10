@@ -13,4 +13,8 @@ git merge [nome das branch] // merge as branchs sendo a segunda inserida na prim
 git remote add origin (pagina do github do repositório) // adiciona ao github 
 git push // adiciona na linha do tempo do github
 git clone + http:// clona um projeto já existente de um repositório remoto para o repositório local;
+git checkout -b [nome da branch]  cria uma nova branch e muda para lá; 
+git commit -am" " // atualisa e comita a mudança;
+git pull // atualisa o projeto local a partir do projeto do repositório remoto;
+git checkout [número da mudança] -- (pacote que quer mudar) // reverte ou retorna o pacote alvo do ponto expecifico;
 shift +q sai do git show
